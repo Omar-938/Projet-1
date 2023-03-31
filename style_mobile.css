@@ -1,5 +1,33 @@
+
+
+
+footer{
+	height:50px;   
+    background-color: #516079;
+	
+}
+footer ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	
+}	
+footer li {	
+	padding-right:10px ;
+	padding-top: 5px;
+}
+
+footer img{
+	width: 20px;
+}
+h4 {
+	text-align: center;
+	font-size: 0.8em;
+	margin-left: 25px;
+}
+
 *{
-    padding: 0;
+padding: 0;
     margin: 0;
 }
 
@@ -45,9 +73,7 @@ main>h1{
 
 
 
-footer{
-    background-color: aqua;
-}
+
 
 .carousel{
     display: flex;
@@ -67,3 +93,4 @@ footer{
   background-color: white;
   border-radius: 10px 10px 10px
 }
+
