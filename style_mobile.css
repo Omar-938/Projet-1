@@ -73,24 +73,6 @@ header h1{
 	align-self: center;
 	
 
-}
-.menu{
-	width: 4%;
-	height: 4%;
-	padding-top: 10px;
-	align-self: flex-end;
-	
-	}
-
-
-h1{
-    color:rgb(225, 239, 239);
-	align-self: center;
-	font-size: 250%;
-	}
-
-
-
 main>h1{
     text-align: center;
     padding: 1.5rem;
