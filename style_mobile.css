@@ -1,9 +1,13 @@
 
 
-
-footer{
-	height:50px;   
+#footer{
+	height:7%;   
     background-color: #516079;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    
 	
 }
 footer ul{
@@ -23,17 +27,21 @@ footer img{
 h4 {
 	text-align: center;
 	font-size: 0.8em;
-	margin-left: 25px;
+	
 }
 
 *{
-padding: 0;
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: whitesmoke;
+    background-image: url(ressources/Fond.png);
 }
+
+
+/* Header */
 
 header{
     display: flex;
@@ -53,36 +61,119 @@ header img{
 header h1{
     text-align: center;
     color: white;
-   text-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px gray;
 }
+	
+	
+	
 
+.logo{
+	width: 10%;
+	height: 10%;
+	align-self: center;
+	
 
 main>h1{
     text-align: center;
     padding: 1.5rem;
 }
 
+#carrousel {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    border: solid 4px #fff;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-color: whitesmoke;
+    border-radius: 10px 10px 10px;
+    box-shadow: 0px 0px 10px;
+    
+}
 
+#d
+{
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    background-color: whitesmoke;
+}
 
+#g
+{
+    transform: rotate(180deg);
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    background-color: whitesmoke;
+}
 
+#container {
+    width: 70%;
+    height: 80%;
+    border-radius: 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px gray;
+    align-items: center;
+    margin: auto;
+    background-size: cover;
+    background-size: 100%;
+}
 
-
-.carousel{
+#quiz1
+{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
+    
+    
 }
 
-.carousel img{
-    width: 80%;
-    padding: 10%;
-}
-
-.description
+#image1
 {
-    text-align: center;
-  padding: 10%;
-  padding-top: 0;
-  background-color: white;
-  border-radius: 10px 10px 10px
+    
+    
+    width: 90%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px 7px 7px;
 }
 
+#image1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+#description1 {
+    text-align: center;
+    height: 15%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px 7px 7px;
+    box-shadow: 0px 0px 5px gray;
+  
+}
+
+#description1 h3 {
+    margin: 2%;
+}
+.bouton {
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    
+    }
