@@ -1,10 +1,13 @@
 
 
-footer{
+#footer{
 	height:7%;   
     background-color: #516079;
-    top: 100%;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    
 	
 }
 footer ul{
@@ -24,48 +27,69 @@ footer img{
 h4 {
 	text-align: center;
 	font-size: 0.8em;
-	margin-left: 25px;
+	
 }
 
 *{
-padding: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    background-color: whitesmoke;
+    background-image: url(ressources/Fond.png);
 }
 
+
+/* Header */
+
 header{
-    background-color: aqua;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
     
+}
+header img{
+    height: 40px;
+    width: 57.5px;
 }
 
 header h1{
     text-align: center;
-    padding: 1.5rem;
     color: white;
-   text-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px gray;
 }
+	
+	
+	
+
+.logo{
+	width: 10%;
+	height: 10%;
+	align-self: center;
+	
+
+}
+.menu{
+	width: 4%;
+	height: 4%;
+	padding-top: 10px;
+	align-self: flex-end;
+	
+	}
 
 
-nav ul{
-   display: flex;
-   flex-direction: row;
-   list-style: none;
-   justify-content: space-evenly;
-}
+h1{
+    color:rgb(225, 239, 239);
+	align-self: center;
+	font-size: 250%;
+	}
 
-nav li a{
-    text-decoration: none;
-    display: flex;
-    padding: 1rem;
-    background-color: rgb(70, 31, 179);
-    border-radius: 10px 10px 10px;
-    color: whitesmoke;
-   
-}
+
 
 main>h1{
     text-align: center;
@@ -165,3 +189,9 @@ main>h1{
 #description1 h3 {
     margin: 2%;
 }
+.bouton {
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    
+    }
