@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_mobile.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <!-- Header avec lien vers la Home -->
+            
+    <header>
+         <a href="/Quiz.html">
+            <img src="ressources/Logo.png" alt="logo">
+         </a>
+         <h1>Train Code quiz</h1>
+         <span> burger</span>
+    </header>
+    <Main>
+
+        <!-- Formulaire de contact -->
+
+        <form id="formulaire">
+
+                  <h2>Si vous avez des améliorations à nous suggérer ou des nouveaux thémes de quiz à nous proposer</h2>
+            <div>
+                <label for="name">Nom</label><br/>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label><br/>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="message">Message</label><br/>
+                <textarea id="message" rows="10"></textarea>
+            </div>
+
+            <button type="submit" class="envoi">Envoyer</button>
+
+           
+        </form>
+      
+          <!--Message aprés envoi-->
+
+          <script>
+            const message = "Merci mais on s'en fout 🤪 ";
+            document
+              .getElementById("formulaire")
+              .addEventListener("submit", function (event) {
+                event.preventDefault();
+                alert(message);
+              });
+          </script>
+
+
+
+        
+    </Main>
+
+    <footer id="footerContact" >
+        <div>
+            <ul>
+                <li> <a class="contact" target="_blank" href="Contact.html"> <img src="ressources/enveloppe.png" alt="Logo Enveloppe"> </a></li>
+                <li> <a class="twitter" target="_blank" href="https://twitter.com/"> <img src="ressources/twitter.png" alt="Logo Twitter"> </a></li>
+                <li> <a class="insta" target="_blank" href="https://www.instagram.com/"> <img src="ressources/instagram.png" alt="Logo Instagram"></a></li>
+                <li> <a class="facebook" target="_blank" href="https://www.facebook.com/"> <img src="ressources/facebook.png" alt="Logo Facebook"> </a></li>
+            </ul>   
+        </div>
+                <h4>© Team Train coding 2023</h4>
+                </footer>
+        
+          
+</body>
+</html>
