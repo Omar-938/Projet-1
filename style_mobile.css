@@ -3,12 +3,14 @@ body{
    font-family: 'Roboto', sans-serif;;
 }
 
+
 #footer{
 	height:7%;   
     background-color: #516079;
     width: 100%;
-	
-}
+    position: fixed;
+    bottom: 0;
+    }
 #footerContact{
     height:7%;   
     background-color: #516079;
@@ -78,6 +80,9 @@ header h1{
 	align-self: center;
 }
 
+	
+
+
 /*main*/
 
 
@@ -90,6 +95,7 @@ main>h1{
     text-align: center;
     padding: 1.5rem;
 }
+
 
 .carte {
     width: 85%;
