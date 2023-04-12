@@ -1,10 +1,22 @@
+body{
+    margin: 0;
+   font-family: 'Roboto', sans-serif;;
+}
 
-
-
-footer{
-	height:50px;   
+#footer{
+	height:7%;   
     background-color: #516079;
+    width: 100%;
 	
+}
+#footerContact{
+    height:7%;   
+    background-color: #516079;
+    width: 100%;
+    position: fixed;
+    bottom: 0
+    ;
+
 }
 footer ul{
 	display: flex;
@@ -23,17 +35,18 @@ footer img{
 h4 {
 	text-align: center;
 	font-size: 0.8em;
-	margin-left: 25px;
+	
 }
 
 *{
-padding: 0;
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: whitesmoke;
-}
+
+
+/* Header */
 
 header{
     display: flex;
@@ -53,36 +66,142 @@ header img{
 header h1{
     text-align: center;
     color: white;
-   text-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px gray;
+}
+	
+	
+	
+
+.logo{
+	width: 10%;
+	height: 10%;
+	align-self: center;
 }
 
+/*main*/
 
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
 main>h1{
     text-align: center;
     padding: 1.5rem;
 }
 
+.carte {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    margin-bottom: .8rem;
+    margin-top: .8rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    border: solid 4px #fff;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-color: whitesmoke;
+    border-radius: 10px 10px 10px;
+    box-shadow: 0px 0px 10px;
+}
 
 
-
-
-
-.carousel{
+.quiz
+{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
 }
 
-.carousel img{
-    width: 80%;
-    padding: 10%;
-}
-
-.description
+.image
 {
-    text-align: center;
-  padding: 10%;
-  padding-top: 0;
-  background-color: white;
-  border-radius: 10px 10px 10px
+
+    width: 90%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px 7px 7px;
 }
 
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+.description {
+    text-align: center;
+    height: 20%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px 7px 7px;
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+    background-color: rgb(212, 209, 209);
+
+}
+.description a{
+    text-decoration: none;
+    color: black;
+}
+
+.description:hover{
+    background-color: rgb(166, 166, 166);
+    transform: scale(1.1);
+}
+
+
+
+                    /* Formulaire */
+
+#formulaire h2{
+    text-align: justify;
+    width: 90%;
+    
+}
+form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input, textarea{
+    background-color: rgb(224, 219, 219);
+    border: none;
+    width: 90%;
+    resize : none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+
+textarea{
+    border-radius: 5px  ;
+
+}
+input{
+    height: 40px;
+    border-radius: 10px  ;
+}
+
+
+.envoi {
+
+    background-color: #242324;
+    color: white;
+    font-size: 1em;
+    border-radius: 8px / 8px ;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
