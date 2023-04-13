@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Quiz Cinéma/série</title>
+    <title>Quiz Tech</title>
 </head>
 <body>
     <!-- Header avec lien vers la Home -->
             
     <header>
-        <a href="index.html">
+        <a href="Quiz.html">
         <img src="ressources/Logo.png" alt="logo">
          </a>
          <h1>Train Code quiz</h1>
@@ -25,11 +25,35 @@
 
     <main class="quizpage">
         <img class="image-principale" src="ressources/CultureG.png" alt="Question" />
-      <div class="question_1">
+      
+        <h2>Quiz tech</h2>
+        <div class="question_1" id="question1">
+        
         <section class="nom_quiz">
-            <h2>Theme du quiz</h2>  </section>
+              </section>
                 <div class="cartequestion">
             <h3 class="question">Question 1</h3>
+            <p class="pquestion">Quel acteur forme un duo dans la saga de films L’Arme Fatale aux côtés de Mel Gibson ?</p>
+            
+            <section class="reponses">
+              <article class="rep"><p> Freeman </p></article>
+              <article class="rep"><p> Whitaker </p></article>
+              <article class="rep" id="goodq"><p> Danny Glover</p></article>
+              <article class="rep"><p> Boseman </p></article>
+
+            </div>
+            <button type="button" class="collapsible" id="bq1">Question suivante</button>
+
+        </section>
+        
+        
+       
+        </div>
+        
+        <section class="nom_quiz" id="question2">
+             
+                <div class="cartequestion">
+            <h3 class="question">Question 2</h3>
             <p class="pquestion">Quel acteur forme un duo dans la saga de films L’Arme Fatale aux côtés de Mel Gibson ?</p>
             
             <section class="reponses">
@@ -40,34 +64,16 @@
 
             </div>
            
+            <button type="button" class="collapsible">Question suivante</button>
+
         </section>
         
-        <button type="button" class="collapsible">Question suivante</button>
+        
        
         </div>
-        <div class="question_2">
-            <section class="nom_quiz">
-                <h2>Theme du quiz</h2>  </section>
-    
-                <h3 class="question">Question 2</h3>
-                <p class="pquestion">Quel acteur forme un duo dans la saga de films L’Arme Fatale aux côtés de Mel Gibson ?</p>
-                
-                <section class="reponses">
-                  <article>Morgan Freeman</article>
-                  <article>Forest Whitaker</article>
-                  <article>Danny Glover</article>
-                  <article>Chadwick Boseman</article>
-    
-                
-               
-            </section>
-            
-            <button type="button" class="collapsible">Question suivante</button>
-    
-        </div>
+    </section>
 
-
-
+        
 
     </main>
        <!-- Footer avec les liens reseaux sociaux  -->
