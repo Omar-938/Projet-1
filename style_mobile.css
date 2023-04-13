@@ -11,6 +11,7 @@ body{
     position: fixed;
     bottom: 0;
     }
+
 #footerContact{
     height:7%;   
     background-color: #516079;
@@ -371,11 +372,7 @@ button {float:right;
 .reponses article{
     margin: 0.2rem;
 }
-<<<<<<< HEAD
-
 
 #question2{
     display: none;
 }
-=======
->>>>>>> 2e1bc81377eb91413e05c50eb0cb478602183fac
