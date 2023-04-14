@@ -8,8 +8,6 @@ body{
 	height:7%;   
     background-color: #516079;
     width: 100%;
-    position: fixed;
-    bottom: 0;
     }
 
 #footerContact{
@@ -281,11 +279,13 @@ input{
 }
 
  /* Style pour le titre */
- .nom_quiz h2 {
+ .quizh2 {
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
-    margin: 2rem 0;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .cartequestion h3{
