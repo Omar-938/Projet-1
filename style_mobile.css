@@ -1,24 +1,27 @@
 body{
     margin: 0;
-   font-family: 'Roboto', sans-serif;;
+   font-family: 'Roboto', sans-serif;
+   background-color: black;
+   
 }
 
 
-#footer{
+#footer{                                                    /* background-color: #516079;*/
 	height:7%;   
-    background-color: #516079;
+    background-color: #333333;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    }
+    color: white;                                               /*changement couleur en white*/
+   /* position: fixed;
+    bottom: 0;*/
+    }   
 
-#footerContact{
+#footerContact{                                              /* background-color: #516079;*/
     height:7%;   
-    background-color: #516079;
+    background-color: #333333;
     width: 100%;
-    position: fixed;
-    bottom: 0
-    ;
+    /*position: fixed;
+    bottom: 0;*/
+    color: white;
 
 }
 footer ul{
@@ -56,10 +59,10 @@ header{
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    background-color:black;
+    background-color:#333333;
     color: white;
     padding: 10px;
-    
+   
 }
 header img{
     height: 40px;
@@ -70,6 +73,7 @@ header h1{
     text-align: center;
     color: white;
     text-shadow: 5px 5px 5px gray;
+    padding-right: 12%;
 }
 	
 	
@@ -96,7 +100,16 @@ main>h1{
     text-align: center;
     padding: 1.5rem;
 }
-
+main h2{
+    text-align: center;
+    color: #5308eb;
+    font-size: 3em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.quizpage img{                                                      /*Ajout Margin-top */
+    margin-top: 5%;
+}
 
 .carte {
     width: 85%;
@@ -112,7 +125,8 @@ main>h1{
     background-size: cover;
     background-color: whitesmoke;
     border-radius: 10px 10px 10px;
-    box-shadow: 0px 0px 7px gray;
+    box-shadow: 0 0 12px #ffffff,
+    inset 0 0 12px #858585                                      /*Ajout effet neon */
 }
 
 
@@ -182,6 +196,7 @@ main>h1{
     margin-top: 15%;
     background-color: whitesmoke;
     border-radius: 10px 10px 10px;
+    margin-bottom: 5%;
     
 }
 
@@ -197,6 +212,7 @@ form label{
     display: block;
     margin: auto;
     margin-bottom: 2rem;
+    font-size: 2em;
     
 }
 
@@ -375,4 +391,49 @@ button {float:right;
 
 #question2{
     display: none;
+}
+
+
+/* NavBar */
+
+.navbar-mobile{
+    display: block;
+}
+
+.navbar-mobile i{
+    position: fixed;
+    z-index: 9999;
+    top: 18px;
+    right: 15px;
+    font-size: 2.8rem;
+    color: white;
+}
+.modal{
+    transition: top 2s;
+    background-color:#333333;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+ 
+.navbar-mobile .navbar-mobile-list{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-mobile .navbar-mobile-list a{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #fefcfc;
+    padding: 2rem;
+    text-decoration: none;
+}
+.change-modal{
+    top:0;
+    
 }
